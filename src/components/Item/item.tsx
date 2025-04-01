@@ -8,7 +8,7 @@ interface ItemProps {
 const Item: React.FC<ItemProps> = ({ name, description }) => {
     return (
         <div style={{ border: '1px solid #ccc', padding: '10px', borderRadius: '5px' }}>
-            <h3>{name}</h3>
+            <h3>hi{name}</h3>
             <p>{description}</p>
         </div>
     );
