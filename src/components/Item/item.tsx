@@ -22,7 +22,7 @@ const Item: React.FC<ItemProps> = ({ name, description }) => {
 
     return (
         <div className={style.item}>
-            <h3>{name}</h3>
+            <h3>Hi, {name}</h3>
             <p>{description}</p>
         </div>
     );
