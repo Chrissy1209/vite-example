@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Item name="Item 1" description="This is item 1" />
+      <Item name="chrissy" description="This is Chrissy!" />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
